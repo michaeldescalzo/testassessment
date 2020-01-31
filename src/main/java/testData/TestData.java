@@ -7,7 +7,7 @@ public class TestData {
 	@DataProvider(name = "broadbandMapAddress")
 	public Object[][] broadbandMapAddress() {
 		/*
-		 * Test Data for TC001 Check Chorus service using Address search
+		 * Test Data for TC001_CheckServiceAvailability Check Chorus service using Address search
 		 */
 		return new Object[][] {
 			{"1 Arthur Street, Ellerslie", "Network capability now\nUFB fibre up to 1 Gbps\nBroadband > 20 Mbps (with the right modem and plan)\nBroadband > 10 Mbps"},

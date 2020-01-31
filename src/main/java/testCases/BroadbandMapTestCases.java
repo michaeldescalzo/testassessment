@@ -10,9 +10,9 @@ import testData.TestData;
 public class BroadbandMapTestCases extends BaseTest {
 
 	@Test(dataProvider = "broadbandMapAddress", dataProviderClass=TestData.class)
-	public void TC001(String address, String expectedNetworkCapability) {
+	public void TC001_CheckServiceAvailability(String address, String expectedNetworkCapability) {
 		/*
-		 * Check Chorus service using Address search
+		 * Check Chorus service availability using Address search
 		 */
 
 		BroadbandAvailabilityMapPage mapPage = new BroadbandAvailabilityMapPage(driver);

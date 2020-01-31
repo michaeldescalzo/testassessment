@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-01-31T04:02:19Z" name="Suite" finished-at="2020-01-31T04:03:21Z" duration-ms="61668">
+  <suite name="Suite" duration-ms="65657" started-at="2020-01-31T10:38:05Z" finished-at="2020-01-31T10:39:10Z">
     <groups>
     </groups>
-    <test started-at="2020-01-31T04:02:19Z" name="Test" finished-at="2020-01-31T04:03:21Z" duration-ms="61668">
+    <test name="Test" duration-ms="65657" started-at="2020-01-31T10:38:05Z" finished-at="2020-01-31T10:39:10Z">
       <class name="testCases.BroadbandMapTestCases">
-        <test-method is-config="true" signature="startTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@57af006c]" started-at="2020-01-31T04:02:19Z" name="startTest" finished-at="2020-01-31T04:02:29Z" duration-ms="10465" status="PASS">
+        <test-method status="PASS" signature="startTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@2d554825]" name="startTest" is-config="true" duration-ms="7959" started-at="2020-01-31T10:38:05Z" finished-at="2020-01-31T10:38:13Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="TC001(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@57af006c]" started-at="2020-01-31T04:02:29Z" name="TC001" data-provider="broadbandMapAddress" finished-at="2020-01-31T04:02:40Z" duration-ms="10524" status="PASS">
+        <test-method status="PASS" signature="TC001_CheckServiceAvailability(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@2d554825]" name="TC001_CheckServiceAvailability" duration-ms="15323" started-at="2020-01-31T10:38:13Z" data-provider="broadbandMapAddress" finished-at="2020-01-31T10:38:28Z">
           <params>
             <param index="0">
               <value>
@@ -41,12 +41,12 @@ Broadband > 10 Mbps]]>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC001 -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:testCases.BroadbandMapTestCases@57af006c]" started-at="2020-01-31T04:02:40Z" name="endTest" finished-at="2020-01-31T04:02:40Z" duration-ms="0" status="PASS">
+        </test-method> <!-- TC001_CheckServiceAvailability -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testCases.BroadbandMapTestCases@2d554825]" name="endTest" is-config="true" duration-ms="597" started-at="2020-01-31T10:38:28Z" finished-at="2020-01-31T10:38:29Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="startTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@57af006c]" started-at="2020-01-31T04:02:40Z" name="startTest" finished-at="2020-01-31T04:02:49Z" duration-ms="9178" status="PASS">
+        <test-method status="PASS" signature="startTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@2d554825]" name="startTest" is-config="true" duration-ms="11823" started-at="2020-01-31T10:38:29Z" finished-at="2020-01-31T10:38:41Z">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@ Broadband > 10 Mbps]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="TC001(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@57af006c]" started-at="2020-01-31T04:02:49Z" name="TC001" data-provider="broadbandMapAddress" finished-at="2020-01-31T04:03:00Z" duration-ms="10705" status="PASS">
+        <test-method status="PASS" signature="TC001_CheckServiceAvailability(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@2d554825]" name="TC001_CheckServiceAvailability" duration-ms="10377" started-at="2020-01-31T10:38:41Z" data-provider="broadbandMapAddress" finished-at="2020-01-31T10:38:51Z">
           <params>
             <param index="0">
               <value>
@@ -78,12 +78,12 @@ Broadband > 5 Mbps]]>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC001 -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:testCases.BroadbandMapTestCases@57af006c]" started-at="2020-01-31T04:03:00Z" name="endTest" finished-at="2020-01-31T04:03:00Z" duration-ms="1" status="PASS">
+        </test-method> <!-- TC001_CheckServiceAvailability -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testCases.BroadbandMapTestCases@2d554825]" name="endTest" is-config="true" duration-ms="604" started-at="2020-01-31T10:38:51Z" finished-at="2020-01-31T10:38:51Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="startTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@57af006c]" started-at="2020-01-31T04:03:00Z" name="startTest" finished-at="2020-01-31T04:03:10Z" duration-ms="9778" status="PASS">
+        <test-method status="PASS" signature="startTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@2d554825]" name="startTest" is-config="true" duration-ms="6445" started-at="2020-01-31T10:38:51Z" finished-at="2020-01-31T10:38:58Z">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@ Broadband > 5 Mbps]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="TC001(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@57af006c]" started-at="2020-01-31T04:03:10Z" name="TC001" data-provider="broadbandMapAddress" finished-at="2020-01-31T04:03:21Z" duration-ms="10978" status="PASS">
+        <test-method status="PASS" signature="TC001_CheckServiceAvailability(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@2d554825]" name="TC001_CheckServiceAvailability" duration-ms="10367" started-at="2020-01-31T10:38:58Z" data-provider="broadbandMapAddress" finished-at="2020-01-31T10:39:08Z">
           <params>
             <param index="0">
               <value>
@@ -114,8 +114,8 @@ Broadband > 5 Mbps]]>
           </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- TC001 -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:testCases.BroadbandMapTestCases@57af006c]" started-at="2020-01-31T04:03:21Z" name="endTest" finished-at="2020-01-31T04:03:21Z" duration-ms="1" status="PASS">
+        </test-method> <!-- TC001_CheckServiceAvailability -->
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testCases.BroadbandMapTestCases@2d554825]" name="endTest" is-config="true" duration-ms="2132" started-at="2020-01-31T10:39:08Z" finished-at="2020-01-31T10:39:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->

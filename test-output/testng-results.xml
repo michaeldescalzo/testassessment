@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-01-31T02:48:47Z" name="Default suite" finished-at="2020-01-31T02:49:42Z" duration-ms="55028">
+  <suite name="Suite" duration-ms="56700" started-at="2020-01-31T09:16:29Z" finished-at="2020-01-31T09:17:26Z">
     <groups>
     </groups>
-    <test started-at="2020-01-31T02:48:47Z" name="Default test" finished-at="2020-01-31T02:49:42Z" duration-ms="55028">
+    <test name="Test" duration-ms="56700" started-at="2020-01-31T09:16:29Z" finished-at="2020-01-31T09:17:26Z">
       <class name="testCases.BroadbandMapTestCases">
-        <test-method is-config="true" signature="startTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@5ad851c9]" started-at="2020-01-31T02:48:47Z" name="startTest" finished-at="2020-01-31T02:48:56Z" duration-ms="8604" status="PASS">
+        <test-method status="PASS" signature="startTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@59fa1d9b]" name="startTest" is-config="true" duration-ms="6476" started-at="2020-01-31T09:16:29Z" finished-at="2020-01-31T09:16:36Z">
           <params>
             <param index="0">
               <value>
@@ -23,7 +23,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="TC001(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@5ad851c9]" started-at="2020-01-31T02:48:56Z" name="TC001" data-provider="broadbandMapAddress" finished-at="2020-01-31T02:49:07Z" duration-ms="10426" status="PASS">
+        <test-method status="PASS" signature="TC001(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@59fa1d9b]" name="TC001" duration-ms="10503" started-at="2020-01-31T09:16:36Z" data-provider="broadbandMapAddress" finished-at="2020-01-31T09:16:46Z">
           <params>
             <param index="0">
               <value>
@@ -42,11 +42,11 @@ Broadband > 10 Mbps]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001 -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:testCases.BroadbandMapTestCases@5ad851c9]" started-at="2020-01-31T02:49:07Z" name="endTest" finished-at="2020-01-31T02:49:07Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testCases.BroadbandMapTestCases@59fa1d9b]" name="endTest" is-config="true" duration-ms="621" started-at="2020-01-31T09:16:46Z" finished-at="2020-01-31T09:16:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="startTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@5ad851c9]" started-at="2020-01-31T02:49:07Z" name="startTest" finished-at="2020-01-31T02:49:14Z" duration-ms="7321" status="PASS">
+        <test-method status="PASS" signature="startTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@59fa1d9b]" name="startTest" is-config="true" duration-ms="11092" started-at="2020-01-31T09:16:47Z" finished-at="2020-01-31T09:16:58Z">
           <params>
             <param index="0">
               <value>
@@ -62,7 +62,7 @@ Broadband > 10 Mbps]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="TC001(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@5ad851c9]" started-at="2020-01-31T02:49:14Z" name="TC001" data-provider="broadbandMapAddress" finished-at="2020-01-31T02:49:24Z" duration-ms="10427" status="PASS">
+        <test-method status="PASS" signature="TC001(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@59fa1d9b]" name="TC001" duration-ms="10383" started-at="2020-01-31T09:16:58Z" data-provider="broadbandMapAddress" finished-at="2020-01-31T09:17:09Z">
           <params>
             <param index="0">
               <value>
@@ -79,11 +79,11 @@ Broadband > 5 Mbps]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001 -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:testCases.BroadbandMapTestCases@5ad851c9]" started-at="2020-01-31T02:49:24Z" name="endTest" finished-at="2020-01-31T02:49:24Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testCases.BroadbandMapTestCases@59fa1d9b]" name="endTest" is-config="true" duration-ms="587" started-at="2020-01-31T09:17:09Z" finished-at="2020-01-31T09:17:09Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
-        <test-method is-config="true" signature="startTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@5ad851c9]" started-at="2020-01-31T02:49:24Z" name="startTest" finished-at="2020-01-31T02:49:32Z" duration-ms="7747" status="PASS">
+        <test-method status="PASS" signature="startTest(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@59fa1d9b]" name="startTest" is-config="true" duration-ms="6047" started-at="2020-01-31T09:17:09Z" finished-at="2020-01-31T09:17:15Z">
           <params>
             <param index="0">
               <value>
@@ -99,7 +99,7 @@ Broadband > 5 Mbps]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- startTest -->
-        <test-method signature="TC001(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@5ad851c9]" started-at="2020-01-31T02:49:32Z" name="TC001" data-provider="broadbandMapAddress" finished-at="2020-01-31T02:49:42Z" duration-ms="10449" status="PASS">
+        <test-method status="PASS" signature="TC001(java.lang.String, java.lang.String)[pri:0, instance:testCases.BroadbandMapTestCases@59fa1d9b]" name="TC001" duration-ms="10348" started-at="2020-01-31T09:17:15Z" data-provider="broadbandMapAddress" finished-at="2020-01-31T09:17:26Z">
           <params>
             <param index="0">
               <value>
@@ -115,11 +115,11 @@ Broadband > 5 Mbps]]>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- TC001 -->
-        <test-method is-config="true" signature="endTest()[pri:0, instance:testCases.BroadbandMapTestCases@5ad851c9]" started-at="2020-01-31T02:49:42Z" name="endTest" finished-at="2020-01-31T02:49:42Z" duration-ms="0" status="PASS">
+        <test-method status="PASS" signature="endTest()[pri:0, instance:testCases.BroadbandMapTestCases@59fa1d9b]" name="endTest" is-config="true" duration-ms="616" started-at="2020-01-31T09:17:26Z" finished-at="2020-01-31T09:17:26Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- endTest -->
       </class> <!-- testCases.BroadbandMapTestCases -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>
